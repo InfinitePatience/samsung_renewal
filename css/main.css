@@ -10,26 +10,11 @@
 /* main_visual */
 ul.slide_wrap{position:relative; width:100%; min-width:1380px; height:85vh; /* height:810px;*/}
 li.slide{opacity:0; z-index:1; position:absolute; left: 0; top:0; width:100%; height:100%;}
-li.slide.active{opacity:1;z-index: 3; background-color: ;}
+li.slide.active{opacity:1;z-index: 3;}
 li.slide>video{width:100%; height:100%; object-fit: cover;}
 li.slide>p{position:absolute; left:25%; top:35%; transform:translateX(-50%);
 font-size: 52px; font-family: 'Noto Sans', sans-serif, Helvetica; font-weight:100; letter-spacing:-3px; line-height:1.1; color: #fff; text-align:center;}
 li.slide>p>span{font-size:48px;font-weight:inherit;}
-/* .slide_arr>a{z-index:10; position:absolute; top:50%; transform:translateY(-50%); width:30px; height:57px;
-background:url(../images/slide_arr_btn.png) no-repeat 0 0; text-indent:-9999px; overflow:hidden;}
-a.btn_prev{left:30px;}
-a.btn_next{right:30px; background-position: -30px 0;} */
-
-/* .slide_roll{z-index:10; position:absolute; left:50%; transform:translateX(-50%); bottom:30px;}
-.slide_roll>ul{float:left;}
-.slide_roll>ul>li{float:left; padding:0 5px;}
-.slide_roll>ul>li>a{display:block; width:10px; height:10px; border-radius:50%; background:#ccc;
-text-indent:-9999px; overflow:hidden; }
-.slide_roll>ul>li.on>a{background:#fff;}
-
-.slide_roll>a.btn_play{float:left; width:9px; height:9px; margin-left: 5px;
-background: url(../images/slide_btn1.png) no-repeat 0 0; text-indent:-9999px; overflow:hidden;}
-.slide_roll>a.btn_play.on{background-position: -9px 0;} */
 
 /* container */
 /* ⭐ content 1 ⭐ */
@@ -59,60 +44,15 @@ background: url(../images/slide_btn1.png) no-repeat 0 0; text-indent:-9999px; ov
 .content1 .newsletter div ul li{position:relative; width:140px; height:45px; display:flex; justify-content:center; align-items:center; margin-left:20px; padding:0 10px; background-color:#fff;}
 .content1 .newsletter div ul li:first-child{margin-left:100px;}
 .content1 .newsletter div ul li a{position:absolute; display:flex; justify-content:center; align-items:center; width:160px; padding-right:15px; font-size:16px; background:url(../images/btn_arrow_ico_l.png) no-repeat 85% 50%; background-size:7px;}
-/* .content1 > div:first-of-type{float:left; margin-right:45px; background: url(../images/bg_product_01.jpg) no-repeat 0 0;}
-.content1 > div:nth-of-type(2){float:left; background: url(../images/bg_product_02.jpg) no-repeat 0 0;}
-.content1 > div:last-of-type{float:right; background: url(../images/bg_product_03.jpg) no-repeat 0 0;}
-
-.content1 > div > h3{font-size:26px; color:#043285; font-weight: bold;}
-.content1 > div > p{padding:20px 0; font-size:16px;}
-.content1 > div > ul{border-top:2px solid #043285;}
-.content1 > div > ul > li{border-bottom:1px solid #ccc;
-background: url(../images/icon_btn_arrow_b.png) no-repeat 100% 50%; line-height:80px;}
-.content1 > div > ul > li > a{display:block; color:#333; font-size:18px; font-weight:600;} */
 
 /* ⭐⭐ content ⭐⭐ */
 .content2{position:relative; width:1903px; height:290px; background:url(../images/bg_prhall.jpg) no-repeat 0 0;}
 .content2 a{display:block; height:100%; background:url(../images/img_prhall.png) no-repeat 110% 50%;} 
-.content2 a div{position:relative; top:30%; padding-left:351.5px; font-family:Noto Sans, sans-serif, Helvetica;}
+.content2 a div{position:relative; top:30%; padding-left:351.5px; font-family: 'Noto Sans', sans-serif, Helvetica;}
 .content2 a div span{display:block; font-size:22px; letter-spacing:1.5px; color:#ffffffb3;}
 .content2 a div h2{display:inline-block; vertical-align:middle; font-size:64px; font-weight:600; color:#fff;}
 .content2 a div p{display:inline-block; vertical-align:middle; position:relative; left:23%; font-size:18px;  color:#ffffffb3;}
 .content2 a div p::before{content:''; position:absolute; width:250px; top:50%; right:112%; box-sizing:content-box; border:1px solid #ffffffb3;}
-
-/* content 2 */
-/* .content2>h2{font-size:34px; font-weight: 600; text-align: center; line-height: 1; margin-bottom:70px;}
-
-.content2>ul{padding:0 24px; margin-bottom:60px;}
-.content2>ul:after{content:""; display:block; clear:both;}
-.content2>ul>li{float:left; width:208px; margin-right:74px;}
-.content2>ul>li:last-child{margin-right:0;}
-.content2>ul>li>a{display:block; width:100%; height:80px; border-bottom:2px solid #d6d6d6;
-font-size:18px; color:#333; font-weight: 600;}
-.content2>ul>li>span{display:block; padding-top:25px; font-size:16px; color:#333;}
-
-.content2>.newsletter{float:left; width:600px; padding:30px;
-background: url(../images/bg_newsletter.jpg) no-repeat 0 0;}
-.newsletter>ul{width:100%;}
-.newsletter>ul:after{content:''; display:block; clear:both;}
-.newsletter>ul>li{float:left; margin-right:20px;}
-.newsletter>ul>li>a{display:block; width:150px; height:45px; text-align:center; line-height: 45px;
-background:#fff url(../images/btn_arrow_ico_g.png)no-repeat 90% 50%;}
-
-.content2>.social{float:right; width:480px; padding-top:30px;}
-.social>ul{width:100%;}
-.social>ul:after{content:''; display:block; clear:both;}
-.social>ul>li{float:left; margin-right:40px;}
-.social>ul>li>a{display:block; width:61px; height:61px;
-background:url(../images/icon_social.png) no-repeat 0 0 ; text-indent:-9999px; overflow:hidden;}
-.social>ul>li:first-child>a{background-position-x:0;}
-.social>ul>li:nth-child(2)>a{background-position-x:-62px}
-.social>ul>li:nth-child(3)>a{background-position-x:-124px;}
-.social>ul>li:last-child>a{background-position-x:-186px}
-
-.social>ul>li>a:hover{background-position-y:-61px;}
-
-.content2>div>h3{font-size:30px; font-weight:bold;}
-.content2>div>p{font-size:16px; padding:10px 0 20px;} */
 
 
 /* ⭐⭐⭐ content 3 ⭐⭐⭐ */
@@ -159,8 +99,6 @@ background:url(../images/icon_social.png) no-repeat 0 0 ; text-indent:-9999px; o
 /* ⭐⭐⭐⭐ content4 ⭐⭐⭐⭐ */
 .content4{display:flex; width:100%;}
 .content4 a{display:flex; width:100%; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
-/* .content4 a:first-of-type{background:url(../images/img_company01.jpg) no-repeat 0 0;}
-.content4 a:last-of-type{background:url(../images/img_company02.jpg) no-repeat 0 0;} */
 
 .content4 a{position:relative;}
 .content4 a > dl{position:absolute;}

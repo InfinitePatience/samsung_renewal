@@ -5,7 +5,6 @@ h1.logo>a{display:block;width:176px;height:36px;background:url(../images/logo.pn
 text-indent:-9999px; overflow:hidden;}
 
 /* 주메뉴 */
-nav.gnb{}
 nav.gnb>ul{width:100%; display:flex; flex-direction: row; justify-content: center; text-align:center;}
 nav.gnb>ul>li{display:inline-block;padding: 0 45px; line-height:70px;}
 nav.gnb>ul>li>a{display:inline-block; position:relative; font-weight:600; font-size:18px; color:#000;}

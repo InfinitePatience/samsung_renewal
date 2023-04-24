@@ -7,7 +7,7 @@
 /* font-family: 'Noto Sans', snas-serif; */
 
 /* container */
-/* spot */ /* 여기서 홈 > 인재채용 > 채용정보 > 채용공고 확인하기 */
+/* spot */ 
 .spot{background: url(../images/faq_visual_img.jpg) no-repeat 50% 0; color:#fff;}
 .spot_inner > h2{font-size:46px; margin-bottom:15px;}
 .spot_inner > p{font-size:16px; color:#eee;}

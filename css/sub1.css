@@ -7,7 +7,6 @@
 /* font-family: 'Noto Sans', snas-serif; */
 
 
-
 /* container */
 /* spot */
 .spot{background: url(../images/faq_visual_img.jpg) no-repeat 50% 0; color:#fff;}
@@ -60,7 +59,7 @@ border:1px solid #ccc; margin:20px 0; box-sizing: border-box; text-indent:10px;}
 margin:20px 0 ; box-sizing:border-box;}
 
 .step2 > form dd.product{display:flex; justify-content: space-between;}
-.step2 > form dd.product select{width:310px; /*border:none; border-bottom:1px solid #000;*/}
+.step2 > form dd.product select{width:310px;}
 
 .step2 > form dd.separate{border-bottom:1px solid #ccc; margin-bottom:20px;}
 
