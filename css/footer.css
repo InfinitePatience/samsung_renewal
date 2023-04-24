@@ -6,7 +6,7 @@
 .foot_inner li a{color:#fff; }
 
 .foot_inner > div:first-of-type{width:100%; border-bottom:1px solid #6c6f73;
-padding-bottom:20px; margin:20px 0; }
+padding-bottom:20px; margin:20px 0;}
 .foot_inner > div:first-of-type:after{content:'';display:block; clear:both;}
 
 
@@ -24,7 +24,7 @@ background:url(../images/sns_link_ico.png)no-repeat 0 0; text-indent: -9999px; o
 .foot_inner > div:first-of-type > ul:last-of-type > li:nth-child(3) > a{background-position-x:-60px;}
 .foot_inner > div:first-of-type > ul:last-of-type > li:last-child > a{background-position-x:-90px;}
 
-.foot_inner > div:last-of-type > {}
+/* .foot_inner > div:last-of-type > {} */
 .foot_inner > div:last-of-type > ul{float:left; margin-bottom:20px;}
 .foot_inner > div:last-of-type > ul > li{margin-right:30px;}
 .foot_inner > div:last-of-type > ul > li > a{color:#ccc;}

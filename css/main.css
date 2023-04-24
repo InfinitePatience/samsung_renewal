@@ -73,7 +73,7 @@ background: url(../images/icon_btn_arrow_b.png) no-repeat 100% 50%; line-height:
 /* ⭐⭐ content ⭐⭐ */
 .content2{position:relative; width:1903px; height:290px; background:url(../images/bg_prhall.jpg) no-repeat 0 0;}
 .content2 a{display:block; height:100%; background:url(../images/img_prhall.png) no-repeat 110% 50%;} 
-.content2 a div{position:relative; top:30%; padding-left:351.5px; font-family:Noto Sans, sans-serif, Helvetica; /* border:1px solid #fff; */}
+.content2 a div{position:relative; top:30%; padding-left:351.5px; font-family:Noto Sans, sans-serif, Helvetica;}
 .content2 a div span{display:block; font-size:22px; letter-spacing:1.5px; color:#ffffffb3;}
 .content2 a div h2{display:inline-block; vertical-align:middle; font-size:64px; font-weight:600; color:#fff;}
 .content2 a div p{display:inline-block; vertical-align:middle; position:relative; left:23%; font-size:18px;  color:#ffffffb3;}
