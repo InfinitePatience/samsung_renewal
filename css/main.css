@@ -45,9 +45,9 @@ background: url(../images/slide_btn1.png) no-repeat 0 0; text-indent:-9999px; ov
 /* content1 글씨 */
 .content1 ul li a .text{padding:20px; font-family:'Noto Sans', sans-serif, Helvetica;}
 .content1 ul li a .text i{position:relative; font-style:normal; font-size:16px; font-weight:600; margin-right:15px; color:#003399;}
-.content1 ul:first-of-type li a .text i{color:#8a8a8a}
+.content1 ul:first-of-type li a .text i{color:#276327;}
 .content1 ul li a .text i:after{content:''; position:absolute; top:5px; width:1px; height:14px; margin-left:5px; background-color:#ccc;}
-.content1 ul li a .text span{font-size:16px; color:#807f7f; font-weight:500; font-family:'Noto Sans', sans-serif, Helvetica;}
+.content1 ul li a .text span{font-size:16px; color:#595959; font-weight:600; font-family:'Noto Sans', sans-serif, Helvetica;}
 .content1 ul li a .text p{font-size:19px; font-weight:600; margin-top:10px; color:#111; }
 
 /* content1 newsletter */
