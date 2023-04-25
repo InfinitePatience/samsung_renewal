@@ -71,16 +71,18 @@ window.addEventListener('scroll', () => {
   if(scroll <= 0){
     topbtn.classList.remove("on","ab");
     topbtn1.classList.remove("on","ab");
+    topbtn.classList.remove("ab");
+    topbtn1.classList.remove("ab");
   }else if(scroll > 4340){
     topbtn.classList.add("on")
-    topbtn.classList.add("ab")
     topbtn1.classList.add("on")
+    topbtn.classList.add("ab")
     topbtn1.classList.add("ab")
   }else{
-    topbtn.classList.remove("ab")
     topbtn.classList.add("on")
-    topbtn1.classList.remove("ab")
     topbtn1.classList.add("on")
+    topbtn.classList.remove("ab")
+    topbtn1.classList.remove("ab")
   }
 });
 
