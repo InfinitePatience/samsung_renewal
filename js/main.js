@@ -53,7 +53,6 @@ btnsrchclose.addEventListener('click', e => {
 //top 버튼
 //클릭하면 스크롤이 맨 위로 올라감
 const topbtn = document.querySelector("a.btn_top")
-const topbtn1 = document.querySelector("a.btn_top1")
 
 topbtn.addEventListener("click", e => {
   e.preventDefault();
@@ -70,20 +69,19 @@ window.addEventListener('scroll', () => {
   console.log(scroll);
   if(scroll <= 0){
     topbtn.classList.remove("on","ab");
-    topbtn1.classList.remove("on","ab");
+
     topbtn.classList.remove("ab");
-    topbtn1.classList.remove("ab");
+
   }else if(scroll > 4340){
     topbtn.classList.add("on")
-    topbtn1.classList.add("on")
+
     topbtn.classList.add("ab")
-    topbtn1.classList.add("ab")
+
   }else{
     topbtn.classList.add("on")
-    topbtn1.classList.add("on")
+
     topbtn.classList.remove("ab")
-    topbtn1.classList.remove("ab")
+
   }
 });
-
 });

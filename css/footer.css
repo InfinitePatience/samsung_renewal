@@ -47,9 +47,6 @@ a.btn_top{display:none; position:fixed; bottom:30px; right:50px; width:60px; hei
 a.btn_top.on{display:block;}
 a.btn_top.ab{position:absolute; bottom:auto; top:-100px; right:50px;}
   
-a.btn_top1{display:none; position:fixed; bottom:100px; right:50px; width:60px; height:60px;  
-  z-index: 50; 
+a.btn_top:after{content:''; position:absolute; bottom:70px; right:0; width:60px; height:60px;
   background:#fff url(../images/ico_museum.png) no-repeat 50% 20%; border-radius: 50%;
-  font-size:13px; color:#333; text-align:center; line-height:80px; cursor:pointer; transition:all 0.5s ease 0s;}
-a.btn_top1.on{display:block;}
-a.btn_top1.ab{position:absolute; bottom:auto; top:-170px; right:50px;}
+  cursor:pointer;}

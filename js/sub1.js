@@ -65,6 +65,7 @@ let lastNum = document.querySelectorAll('.slide_wrap > li').length - 1;
 //클릭하면 스크롤이 맨 위로 올라감
 const topbtn = document.querySelector("a.btn_top")
 
+
 topbtn.addEventListener("click", e => {
   e.preventDefault();
 window.scroll({
