@@ -5,7 +5,7 @@ blockquote,pre,abbr,address,cite,code,del,dfn,em,img,
 ins,kbd,q,samp,strong,sub,sup,var,dl,dt,dd,ol,ul,li,
 fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,summary,
 small,b,i,article,aside,canvas,details,figcaption,figure,footer,header,menu,nav,section,time,
-mark,audio,video{margin:0; padding:0;} /* 모든 Element 요소들이 가지고 있는 여백을 한꺼번에 없애주는게 좋다. */
+mark,audio,video{margin: 0; padding:0;} /* 모든 Element 요소들이 가지고 있는 여백을 한꺼번에 없애주는게 좋다. */
 
 article,aside,details,figcaption,figure,footer,header,menu,nav,section,video{display:block;}
 table{border-collapse:collapse;}

@@ -97,8 +97,8 @@ li.slide>p>span{font-size:48px;font-weight:inherit;}
 .content3 > .content3_inner > ul > li:hover > a > div > span{background-color:#1428a0; color:#fff;}
 
 /* ⭐⭐⭐⭐ content4 ⭐⭐⭐⭐ */
-.content4{display:flex; width:100%;}
-.content4 a{display:flex; width:100%; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
+.content4{display:flex;}
+.content4 a{display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
 
 .content4 a{position:relative;}
 .content4 a > dl{position:absolute;}
@@ -107,7 +107,7 @@ li.slide>p>span{font-size:48px;font-weight:inherit;}
 .content4 a:first-of-type > dl > dt{width:100%; height:81px; padding-top:100px; background:url(../images/ico_company01.png) no-repeat 0 0; background-position:50% 0;} 
 .content4 a:last-of-type > dl > dt{width:100%; height:81px; padding-top:100px; background:url(../images/ico_company02.png) no-repeat 0 0; background-position:50% 0;}
 
-.content4 a div{width:100%; height:100%; object-fit:cover; overflow:hidden;}
+.content4 a div{width:951px; height:100%; object-fit:cover; overflow:hidden;}
 .content4 a div img{transition:all 0.7s ease 0s;}
 .content4 a:hover div img{transform:scale(1.05); filter:brightness(0.7);}
 
