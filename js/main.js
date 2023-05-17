@@ -85,3 +85,48 @@ window.addEventListener('scroll', () => {
   }
 });
 });
+
+
+//스크롤 시 애니메이션
+const contents = document.querySelectorAll('#container>div')
+//content 1
+const content1_h2 = document.querySelector('#container>.content1>h2')
+const content1_ul = document.querySelectorAll('#container>.content1>.content1_inner ul')
+const content1_news = document.querySelector('.content1>.newsletter')
+//content2
+const content2 = document.querySelector('.content2')
+//content3
+const content3_img = document.querySelectorAll('.content3>.content3_inner>ul>li>a>div>img')
+const content3_dl = document.querySelectorAll('.content3>.content3_inner>ul>li>a>div')
+
+
+var scrollY = window.pageYOffset;
+  console.log(scrollY)
+window.addEventListener('scroll', e => {
+  scrollY = window.pageYOffset;
+  if(scrollY>300 && scrollY <= 500){
+    content1_h2.classList.add('on')
+  }else if(scrollY>500 && scrollY <= 800){
+    content1_ul[0].classList.add('on')
+    content1_ul[1].classList.add('on')
+    content1_ul[2].classList.add('on')
+  }else if(scrollY>800 && scrollY <= 1000){
+    content1_news.classList.add('on')
+  }else if(scrollY>1000 && scrollY <= 1400){
+    content2.classList.add('on')
+  }else if(scrollY>2100 && scrollY <= 2200){
+    content3_img[0].classList.add('on')
+  }else if(scrollY>2200 && scrollY <= 2300){
+    content3_dl[1].classList.add('on')
+  }else if(scrollY>2400 && scrollY <= 2500){
+    content3_img[1].classList.add('on')
+  }else if(scrollY>2600 && scrollY <= 2700){
+    content3_dl[2].classList.add('on')
+  }else if(scrollY>2700 && scrollY <= 2800){
+    content3_img[2].classList.add('on')
+  }else if(scrollY>2800 && scrollY <= 2900){
+    content3_img[3].classList.add('on')
+  }else if(scrollY>2900 && scrollY <= 3000){
+    content3_dl[5].classList.add('on')
+  }
+});
